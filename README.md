@@ -1,9 +1,9 @@
-# JavaScript e TypeScript Moderno :book:
+# JavaScript e TypeScript Moderno :closed_book:
 ![foto](js.jpg)
 --
 Repositorio Para Estudo de JavaScript e TypeScript.
 
-### Fique avontade para usa-lo em seus estudos :handshake:
+### Fique avontade para usa-lo em seus estudos :memo:
 
 - [x] Configurando o ambiente Windows e Linux
 - [ ] JavaScript básico - Para iniciantes
