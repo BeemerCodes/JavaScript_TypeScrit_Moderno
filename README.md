@@ -1,4 +1,4 @@
-### JavaScript e TypeScrit Moderno :woman_technologist:
+### JavaScript e TypeScript Moderno :woman_technologist:
 ---
 ![foto](js.jpg)
 --
