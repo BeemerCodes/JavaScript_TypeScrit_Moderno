@@ -1,10 +1,9 @@
-### JavaScript e TypeScript Moderno :woman_technologist:
----
+# JavaScript e TypeScript Moderno :woman_technologist:
 ![foto](js.jpg)
 --
 Repositorio Para Estudo de JavaScript e TypeScript.
 
-Fique avontade para usa-lo em seus estudos :)
+#### Fique avontade para usa-lo em seus estudos :book:
 
 - [x] Configurando o ambiente Windows e Linux
 - [ ] JavaScript básico - Para iniciantes
@@ -22,6 +21,7 @@ Fique avontade para usa-lo em seus estudos :)
 - [ ] React (Básico) - JavaScript
 - [ ] React + Redux + Redux Saga (Avançado) - JavaScript
 - [ ] Expressões regulares em JavaScript -Regex
+***
 - [ ] TypeScript - Instalação
 - [ ] TypeScript - Tipos básicos
 - [ ] TypeScript - Classes e Interfaces (POO)
