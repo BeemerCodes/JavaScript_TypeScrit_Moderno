@@ -1,0 +1,25 @@
+para escapar uma string
+
+let umaString = 'um \'texto\''; NOTE isso ira mostrar as aspas mesmo sendo aberto com aspas iguais
+
+REVIEW para usar a \ apenas basta por \\
+
+para localizar uma letra na palavra:
+
+console.log(umaString[4]); ou console.log(umaString.charAt(4)); (NOTE retorna o código da letra)
+
+para buscar uma palavra:
+
+console.log(umaString.indexOf('o', 3)); NOTE ira buscar a primeira letra o após o 3 caracter
+
+console.log(umaString.lastIndexOf('o')); NOTE ira buscar a letra o lendo do fim ao inici
+
+para fatiar uma parte:
+
+console.log(umaString.slice(2, 6)); NOTE o primeiro numero é onde começa e o segundo onde acaba, ele mostra o ultimo caracter por isso adicionar +1
+
+para dividir pelo caracter:
+
+console.log(umaString.split(' ')); NOTE ira dividir todas palavras pelos espaços e criar um array
+console.log(umaString.split(' ', 2)); NOTE ira fazer isso apenas 2 vezes
+
