@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Babel  -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel">
+
+    // FIXME olhar documentação sobre math
+
+    let num1 = prompt('Digite um numero: ');
+    num1 = Number(num1);
+
+    document.body.innerHTML += `<h3>Seu numero é: ${num1}</h3> <hr>`;
+
+    document.body.innerHTML += `Raiz quadrada: ${Math.round(num1 ** 0.5)}, Valor aproximado <br>`;
+
+    document.body.innerHTML += `${num1} é inteiro: ${Number.isInteger(num1)}<br>`;
+  
+    document.body.innerHTML += `${num1} é NaN: ${Number.isNaN(num1)} <br>`;
+
+    document.body.innerHTML += `Arredondado para baixo: ${Math.floor(num1)} <br>`
+
+    document.body.innerHTML += `Arredondado para cima: ${Math.ceil(num1)} <br>`;
+
+    document.body.innerHTML += `Com duas casas decimais: ${num1.toFixed(2)} <br>`;
+  </script>
+
+  <title>JavaScript Moderno</title>
+  <link rel="shortcut icon" href="javascript.svg">
+
+</head>
+
+<body>
+
+  <!-- Optional JavaScript -->
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

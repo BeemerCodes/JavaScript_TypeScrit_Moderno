@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Babel  -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel">
+
+    // REVIEW IEEE 754-2008
+
+    let num1 = 0.7;
+    let num2 = 0.1;
+
+    num1 += num2; // 0.8
+    num1 += num2; // 0.9
+    num1 += num2; // 1.0
+
+    num1= Number(num1.toFixed(2));
+
+    // NOTE outro modo de corrigir
+
+    num1 = ((num1 * 100) + (num2 * 100) / 100);
+
+    console.log(num1);
+    console.log(Number.isInteger(num1));
+
+
+    //console.log(num1.toString() + num2); // NOTE faz o number virar string nesse comando apenas
+
+    //console.log(num1.toString(2)); // REVIEW retorna o valor binário
+  
+    //console.log(num1.toFixed(2)); // REVIEW mostra apenas 2 numeros apos o ponto flutuante, não altera o valor apenas exibi de uma forma legível
+  
+    //console.log(Number.isInteger(num2)); // REVIEW retorna true ou false para se o numero é inteiro ou não
+
+    //let temp = num1 * 'Olá';
+    //console.log(Number.isNaN(temp)); // REVIEW retorna true caso seja um NaN ou false caso contrario
+
+
+
+  </script>
+
+  <title>JavaScript Moderno</title>
+  <link rel="shortcut icon" href="javascript.svg">
+
+</head>
+
+<body>
+
+  <!-- Optional JavaScript -->
+
+
+
+
+
+
+
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
