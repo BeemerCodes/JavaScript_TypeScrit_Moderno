@@ -21,7 +21,7 @@
 
     document.body.innerHTML += `<h3>Seu numero é: ${num1}</h3> <hr>`;
 
-    document.body.innerHTML += `Raiz quadrada: ${Math.round(num1 ** 0.5)}, Valor aproximado <br>`;
+    document.body.innerHTML += `Raiz quadrada: ${(num1 ** 0.5).toFixed(2)}, Valor aproximado <br>`;
 
     document.body.innerHTML += `${num1} é inteiro: ${Number.isInteger(num1)}<br>`;
   
